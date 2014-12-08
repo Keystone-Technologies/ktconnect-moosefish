@@ -1,0 +1,128 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*
+ * Primary Green: #6D9D30
+ * Accent Blue: #1499D3
+ * Yellow: #eee8aa
+ * Indigo: #191C51
+ * #4B0082
+ * Gray: #808080 #A7A9AC
+ */
+
+.navbar-inverse {
+  background-color: #6d9d30;
+  background-image: none;
+  border-color: #080808;
+  color: #fff;
+  box-shadow: 0px 3px 5px #888;
+}
+.navbar-header{ width:100%; }
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+.content-container {
+  margin-top: 2em;
+}
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 1s linear;
+          transition: opacity 1s linear;
+}
+.nav-tabs {
+    border-bottom: 0 solid #ddd;
+}
+.nav-tabs > li > a.list-group-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.nav-tabs > li > a.list-group-item, 
+.nav-tabs > li > a.list-group-item:hover, 
+.nav-tabs > li > a.list-group-item:focus {
+  background-color: #4b0082;
+  cursor: default;
+  color: #FFF;
+}
+.top-buffer { margin-top:20px; }
+
+.panel > .list-group-item:hover .list-group-item-text span {
+  color: #FFF;
+}
+.list-group-item h2,
+.list-group-item .h2 {
+  font-size: 1.75em;
+}
+a.fakeimg {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 3px #999;
+  display: block;
+  margin: 0;
+  padding: 5px;
+}
+a.fakeimg span {
+  font-size: 65px;
+  margin: 0;
+}
+.panel-default > .panel-heading {
+  background-image: none;
+  background: #4B0082;
+  background-repeat: repeat-x;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.panel-default > .panel-body {
+  background: #A7A9AC;
+}
+a.list-group-item,
+a.list-group-item:hover,
+a.list-group-item:focus {
+  text-decoration: none;
+  background-color: #eee8aa;
+}
+
+.col-sm-8 a.list-group-item,
+.col-sm-8 a.list-group-item:hover,
+.col-sm-8 a.list-group-item:focus {
+  background:#4b0082;
+  color:#FFF;
+}
+
+
+a.list-group-item:hover,
+a.list-group-item:focus {
+  color: #1499D3;
+}
+.main-buttons {
+  position: absolute;
+  top: 14em;
+}
+.text-primary {
+  color: #6D9D30;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+text-capitalize{
+  text-transform: capitalize;
+}
+.myfav {
+  border-bottom: 1px solid;
+  padding-left: 1em;
+  line-height: 12px;
+}
+.red {
+  color: red;
+}
